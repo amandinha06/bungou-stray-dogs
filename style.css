@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*tema*/
+
+.dark-theme .nav_menu{
+    background-color: #493628;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: 999; 
+}
+
+.dark-theme .nav li a {
+    padding: 5rem 2rem 2rem 1rem;
+    text-decoration: none;
+    color: #AB886D;
+    font-size: 24px;
+    transition: text-decoration 0.3s ease;
+    padding-right: 49px;
+}
+
+.dark-theme button{
+    background-color: #AB886D;
+}
+
+button{
+    background-color: #493628;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+}
+
+button:hover{
+    background-color: #323232;
+}
+
+/*fundo*/
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color: #AB886D; 
+    color: #493628;
+    background-image: url(src/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+/*cabeça*/
+
+header {
+    position: fixed;
+    background-color: #e2a67a;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: 999; 
+}
+
+.nav_menu .nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 4px 0; 
+}
+
+.nav li {
+    list-style: none; 
+    margin: 0 15px; 
+}
+
+.nav li a {
+    padding: 5rem 2rem 2rem 1rem;
+    text-decoration: none;
+    color: #493628;
+    font-size: 24px;
+    transition: text-decoration 0.3s ease;
+    padding-right: 49px;
+}
+
+.nav li a:hover {
+    color: #E6E6FA;
+}
+
+
+/*foto e texto*/
+
+#foto img{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 220px;
+    margin-left: 450px;
+    margin-top: 100px;
+}
+
+#foto h8{
+    font-size: 25px;
+    color: #c9c9c9;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 55px;
+    margin-top: 80px;
+    margin-right: 50px;
+    display: flex;
+}
+#foto h6{
+    font-size: 25px;
+    color: #c9c9c9;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    margin-right: 50px;
+    display: flex;
+}
+
+/*contato*/
+
+#contatoForm {
+    margin-top: 120px;
+    margin-left: 250px;
+    background-color: #3d2b1e;
+    border-radius: 20px;
+    padding-left: 200px;
+    padding-top: 50px;
+    width: 800px;
+    height: 400px;
+}
+
+#contatoForm form {
+    margin: 20px auto;
+    width: 300px;
+}
+
+#contatoForm label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+#contatoForm input, textarea {
+    width: 550px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    padding-top: 0;
+    outline: none;
+}
+
+#contatoForm button {
+    width: 100px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    background-color: #493628;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contatoForm button:hover{
+    background-color: #323232;
+}
+
+#contatoFom h1{
+    color: #232323;
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+
+/*fotos*/
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+
+/*personagens*/
+#principais h2{
+    font-size: 25px;
+    color: #c9c9c9;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 55px;
+    margin-top: 130px;
+    margin-right: 50px;
+    display: flex;
+    
+}
+
+#principais h1{
+    font-size: 35px;
+    color: #e2a67a;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    display: flex;
+    
+}
+
+#principais {
+    text-align: center; 
+}
+  
+#principais img{
+    width: 200px; 
+    margin: 20px auto; 
+}
+  
+#principais h3, h4 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #c9c9c9;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 640px;
+    margin-right: 50px;
+    display: flex;
+}
+  
+#principais h5, h6 {
+    margin-top: 20px;
+    font-size: 25px;
+    color: #c9c9c9;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 80px;
+    margin-right: 50px;
+    display: flex;
+}
+
+#principais h6{
+    margin-bottom: 80px;
+}
+
+#principais a{
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #e2a67a;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 485px;
+    margin-right: 50px;
+    display: flex;
+}
+
+/*dazai*/
+
+#detalhes img{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#detalhes {
+    text-align: center;
+}
+
+#detalhes h1{
+    font-size: 45px;
+    color: #c9c9c9;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 410px;
+    margin-top: 130px;
+    margin-right: 50px;
+    display: flex;
+}
+
+#detalhes h2{
+    font-size: 25px;
+    color: #c9c9c9;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-right: 50px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#detalhes h3{
+    font-size: 35px;
+    color: #e2a67a;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    display: flex;
+}
+
+/*ep fav*/
+
+#eps {
+    text-align: center;
+}
+
+#eps h1{
+    font-size: 45px;
+    color: #c9c9c9;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 550px;
+    margin-top: 130px;
+    margin-right: 50px;
+    margin-bottom: 35px;
+    display: flex;
+}
+
+#eps img{
+    width: 600px;
+    height: auto;
+}
+
+#eps h2{
+    font-size: 35px;
+    color: #e2a67a;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 550px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    display: flex;
+}
+
+#eps h3{
+    font-size: 25px;
+    color: #c9c9c9;
+    text-shadow: 2px 2px 4px #323232;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-right: 70px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#eps iframe{
+    margin-bottom: 20px;
+}
+
+/*pé*/
+
+footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #333;
+        color: #fff;
+        position: static;
+        bottom: 0;
+        width: 1488px;
+}
+  
+footer a {
+        color: #fff;
+        text-decoration: none;
+}
+  
+footer a:hover {
+        text-decoration: underline;
+  }
