@@ -11,3 +11,5 @@
 - **Contato**: inclui uma funcionalidade interativa desenvolvida em JavaScript para facilitar a comunicação.  
 
 Além disso, o site possui um recurso especial: um botão que permite alterar o tema do site inteiro com um único clique, proporcionando uma experiência dinâmica e personalizável para o usuário.</p>
+
+<p>Abra o site nesse link: https://amandinha06.github.io/bungou-stray-dogs/index.html</p>
